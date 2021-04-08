@@ -1,80 +1,45 @@
-
-
-## OAuth Provider Name
- Google
+# OAuth Comparative Analysis
 ​
+### integrated the OAuth with Google provider( third party framework auth OAuth)
 
-### Research Conducted By: Student Names
-Mohmmad khmees , omar tarawneh , Ahmad frijat , Abd Alrhuman alebdahat , Raghad mustafa
+## OAuth Provider Name: Google
 ​
-
-### Overall Score and Comments
-
-#### Score (Out of 10): 7
-
-#### General Comments
-
-Describe the stack (front-end only? full stack?), database, efficiency, etc. Describe the general usability and learnability
+### Research Conducted By:
+  Mohmmad khmees , omar tarawneh , Ahmad frijat , Abd Alrhuman alebdahat , Raghad mustafa​ 
 ​
+<br>
+<br>
+
 
 #### Pros
-
-- Item 1
-- Item 2
-  ​
-
-#### Cons
-
-- Item 1
-- Item 2
-  ​
-
-### Ratings and Reviews
-
-#### Documentation
-
-Thoughts go here
+* App production performance is improved, 
+* reduced complexity. It doesn't require the request signing procedure.
+* Easier service monitoring
+* we can mandate the authentication process to a third party that you trust, and never worry about user authenticity validation.
 ​
+​<br>
+<br>
 
-#### Systems Requirements
- 
- node js , linux , express , superagent , dotenv , cors 
-
-​
-
-#### Ramp-Up Projections
-
-How long would/should it take a team of mid-junior developers to become productive?
-​
-
-#### Community Support and Adoption levels
-
-How popular is this framework? What big companies are running on it? How is it "seen" in the general JS community? Is there an active community of developers supporting and growing it?
-​
-​
-
-### Links and Resources
-
-- [framework](http://xyz.com)
-- [docs](http://xyz.com)
-- [examples/tutorials](http://xyz.com)
-  ​
 
 ### Code Demos
+- [Google](https://google-oauth-khamees.herokuapp.com/)
+- [Repo ](https://github.com/mohammed-khamees/Oauth)
 
-- [live/running application](https://google-oauth-khamees.herokuapp.com/)
-- [code repository](https://github.com/mohammed-khamees/Oauth)
-  ​
 
 ### Operating Instructions
+- Clone the repository from GitHub
+- npm i express dotenv morgan cors superagent mongoose jsonwebtoken fs base-64 bcrypt`
+- create .env file with these variables:
 
-If someone were to download your repo (above), what steps do they need to take to run the application
+    PORT=3000
+    CLIENT_SECRET=oWXOG2zeZ3Uyfu0WZmt0Y9sO
+    REDIRECT_URI=https://google-oauth-khamees.herokuapp.com/privacy
+    CLIENT_ID=291083127686-2983qhvfs7vt2g0885dcokgdfam1pl1e.apps.googleusercontent.com
+    MONGODB_URI=mongodb+srv://fbclient:123456@cluster0.hgfb0.mongodb.net/auth?retryWrites=true&w=majority
+    SECRET=secretKey (edited) 
 
- - npm init -y
- - npm i 
- - sudo service mongod start
 
-- `npm start`
-- Endpoint: `/privacy`
-  - Returns a JSON object with token in it.
+
+
+
 
