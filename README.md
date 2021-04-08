@@ -31,12 +31,12 @@
 - npm i express dotenv morgan cors superagent mongoose jsonwebtoken fs base-64 bcrypt`
 - create .env file with these variables:
 
-    PORT=3000
-    CLIENT_SECRET=oWXOG2zeZ3Uyfu0WZmt0Y9sO
-    REDIRECT_URI=https://google-oauth-khamees.herokuapp.com/privacy
-    CLIENT_ID=291083127686-2983qhvfs7vt2g0885dcokgdfam1pl1e.apps.googleusercontent.com
-    MONGODB_URI=mongodb+srv://fbclient:123456@cluster0.hgfb0.mongodb.net/auth?retryWrites=true&w=majority
-    SECRET=secretKey (edited) 
+    PORT=3000 <br>
+    CLIENT_SECRET=oWXOG2zeZ3Uyfu0WZmt0Y9sO <br> 
+    REDIRECT_URI=https://google-oauth-khamees.herokuapp.com/privacy <br>
+    CLIENT_ID=291083127686-2983qhvfs7vt2g0885dcokgdfam1pl1e.apps.googleusercontent.com <br>
+    MONGODB_URI=mongodb+srv://fbclient:123456@cluster0.hgfb0.mongodb.net/auth?retryWrites=true&w=majority <br> 
+    SECRET=secretKey <br>
 
 
 
